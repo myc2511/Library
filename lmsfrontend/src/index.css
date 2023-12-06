@@ -1,0 +1,167 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+.app {
+  padding: 14px;
+  background-color: #F7F7F7;
+  min-height: 97vh;
+}
+
+/* navbar component*/
+.navbar {
+  display: flex;
+  align-items: center;
+  background-color: #00458B;
+  justify-content: space-between;
+  height: 10vh;
+  margin: -2vh;
+  flex-direction: row;
+  position: sticky;
+  top: 0px;
+}
+
+/* librarian's page */
+.librarian {
+  padding: 1%;
+}
+
+.librariantab {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: #99DDFF;
+  border-radius: 8px;
+  padding-top: 4vh;
+  padding-bottom: 2vh;
+  align-items: center;
+  font-size: large;
+  margin-bottom: 5vh;
+}
+
+.librariantab a {
+  /* background: #f0f0f0; */
+  border-radius: 8px;
+  padding: 6px 10px;
+  text-decoration: none;
+  width: 25%;
+  text-align: center;
+}
+
+.librariantab a:hover {
+  background-color: rgb(178, 132, 242);
+}
+
+.librariantab a.active {
+  color: #fff;
+  background: #5680e9;
+}
+
+/* user's page */
+.usertab {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: #99DDFF;
+  height: 5vh;
+  border-radius: 8px;
+  padding-top: 5vh;
+  padding-bottom: 2vh;
+  align-items: center;
+  font-size: large;
+  margin-bottom: 5vh;
+}
+
+.usertab a {
+  /* background: #f0f0f0; */
+  border-radius: 8px;
+  padding: 6px 10px;
+  text-decoration: none;
+  height: 4vh;
+  width: 50%;
+  text-align: center;
+}
+
+.usertab a:hover {
+  background-color: #3FD2C7;
+}
+
+.usertab a.active {
+  color: #fff;
+  background: #3FD2C7;
+}
+
+/*pagination*/
+.pagination {
+  justify-content: center;
+  display: flex;
+  flex-direction: row;
+}
+
+.page-item {
+  border: 1px solid grey;
+  padding: 5px;
+  list-style: none;
+  color: blue;
+}
+
+.page-link {
+  cursor: pointer;
+}
+
+.activePage {
+  background-color: blue;
+  color: white;
+}
+
+/* editable comment */
+#editableComment:focus-within {
+  background-color: aqua;
+  border: 1px solid black;
+}
+
+/* for drawer */
+.elemBox {
+  text-align: center;
+  padding: 10px;
+  font-size: 20px;
+}
+
+.elemBox:hover {
+  background-color: rgb(168, 142, 244);
+}
+
+.elemBox a {
+  text-decoration: none;
+}
+
+.elemBox a:link {
+  color: black;
+}
+
+.elemBox a:visited {
+  color: black;
+}
+
+.elemBox a:active {
+  color: black;
+}
+
+.elemBox a:hover {
+  color: black;
+}
+
+/*  */
+.login{
+  margin-top: 7vh;
+  margin-bottom: 7vh;
+}
+
+.footer{
+  color: #ffffff;
+}
