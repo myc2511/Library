@@ -2,8 +2,6 @@
 
 This is a MERN stack application built for easy and effctive Library management.
 
-Website Link: http://localhost:8080/
-
 ## Description
 
 ### Performance
@@ -82,23 +80,3 @@ j. View E-Book - Users can view PDF of their issued books in realtime
 
 - nodemon
 
-
-### Installing
-
-For backend clone the repository by running the following command
-
-Then run the below command at the root of both backend and frontend to install all the dependencies
-```
-npm install
-```
-
-### Executing program
-
-to run the Backend excute the following command in the root folder of backend
-```
-npm run srever
-
-to run the Frontend excute the following command in the root folder of frontend
-```
-npm run start
-```
